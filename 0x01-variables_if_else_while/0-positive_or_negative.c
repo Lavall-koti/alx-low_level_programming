@@ -5,7 +5,8 @@
  * main - assing random number to n each time it is exexuted
  * if the number is greater then 0: is positive, if the number is 0: is zero
  * if the number is less then 0: is negative, follow by a new line
- * return: 0
+ *
+ * Return: Aways 0 (Success)
  */
 int main(void)
 {
