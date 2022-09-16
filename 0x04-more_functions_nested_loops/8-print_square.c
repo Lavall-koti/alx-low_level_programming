@@ -16,16 +16,16 @@ void print_square(int size)
 	if (size > 0)
 	{
 		while (row < size)
+		{
+			column = 0;
+			while (column < size)
 			{
-				column = 0;
-				while (column < size)
-				{
-					_putchar('#');
-					column++;
-				}
-				_putchar('\n');
-				row++;
+				_putchar('#');
+				column++;
 			}
+			_putchar('\n');
+			row++;
+		}
 	}
 	else
 	{
