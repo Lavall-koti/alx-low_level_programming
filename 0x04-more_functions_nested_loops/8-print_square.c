@@ -4,6 +4,7 @@
  * print_square - Prints a square
  * @size: The size of the square
  *
+ *
  * Return: a square made of '#'
  */
 
