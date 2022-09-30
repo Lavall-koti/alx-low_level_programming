@@ -4,7 +4,7 @@
  * find_root returns the natural square root of a number
  * @n: n
  * @root: n root
- * Return: If n does not have a natural square root, the function should return -1
+ * Return: natural square root, else the function should return -1
  */
 
 int find_root(int n, int root)
@@ -21,7 +21,7 @@ int find_root(int n, int root)
 /**
  * _sqrt_recursion - find natural square root of n
  * @n: n
- * Return: If n does not have a natural square root, the function should return -1
+ * Return: natural square root, else the function should return -1
  */
 
 int _sqrt_recursion(int n)
