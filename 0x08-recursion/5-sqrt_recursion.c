@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * find_root returns the natural square root of a number
