@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * find_root returns the natural square root of a number
+ * find_root - returns the natural square root of a number
  * @n: n
  * @root: n root
  * Return: natural square root, else the function should return -1
