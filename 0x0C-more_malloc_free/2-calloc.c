@@ -3,10 +3,10 @@
 
 /**
  * _calloc - function that allocates memory for an array, using malloc.
- * @nmemb: numbe of member of element
+ * @nmemb: numbe of member element
  * @size: byte size
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -16,7 +16,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-		p = malloc(nmemb * size);
+	p = malloc(nmemb * size);
 	if (p == NULL)
 		return (NULL);
 	for (i = 0; i < (nmemb * size); i++)
